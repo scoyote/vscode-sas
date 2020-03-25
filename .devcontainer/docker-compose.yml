@@ -1,0 +1,15 @@
+﻿
+version: '3'
+
+services:
+
+      sas_94:
+        image: registry.unx.sas.com/sacrok/sas94_2021:latest
+        container_name: sas_94M5
+        ports: 
+        - "38080:38081"
+        #entrypoint: /usr/local/SASHome/SASFoundation/9.4/sas
+        command: tail -F /dev/null #-c "/sas/studioconfig/sasstudio.sh start"
+        volumes: 
+        - "/Users/samuelcroker/Documents/SAS_94_21/SASRemote:/saslocal"
+        restart: always

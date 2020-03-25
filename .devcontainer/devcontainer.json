@@ -1,0 +1,6 @@
+{
+	"image": "registry.unx.sas.com/sacrok/sas94_2021:latest",
+	"forwardPorts": [38080],
+	"extensions": ["dbaeumer.vscode-eslint"],
+	"remoteUser": "sas"
+  }
