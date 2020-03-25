@@ -3,5 +3,16 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        
+        {
+            "type": "docker",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "/usr/local/SASHome/SASFoundation/9.4/sas"
+        }
+
+
+
+    ]
 }

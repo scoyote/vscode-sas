@@ -1,6 +1,7 @@
 {
-	"image": "registry.unx.sas.com/sacrok/sas94_2021:latest",
+	"image": "registry.unx.sas.com/sacrok/sas94_centos7:latest",
 	"forwardPorts": [38080],
 	"extensions": ["dbaeumer.vscode-eslint"],
-	"remoteUser": "sas"
+	"remoteUser": "sas",
+	"runArgs": [ "-v", "/var/run/docker.sock:/var/run/docker.sock"]
   }
